@@ -7,7 +7,7 @@ mytuple=(1,"Amit",1.25)
 a,b,c=mytuple
 print("\n First variable : ")
 print(a)
-print("\n Two variable : ")
+print("\n Second variable : ")
 print(b)
 print("\n Third variable : ")
 print(c)
