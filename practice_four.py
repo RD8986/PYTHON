@@ -3,10 +3,11 @@
 # 2. Print the third continent in the tuple.
 # 3. Try to change the second continent and observe the result.
 
-fivecontinents=("Africa", "Asia", "Europe", "North America", "South America")
-print(fivecontinents[2])
+fivecontinents = ("Africa", "Asia", "Europe", "North America", "South America")
 
-# fivecontinents[2]=["Australia"]
-# print(fivecontinents)
+print(fivecontinents[2]) 
 
-# TypeError: 'tuple' object does not support item assignment
+try:
+    fivecontinents[1] = "Australia"
+except TypeError as a:
+    print(f"Error occurred: {a}")
