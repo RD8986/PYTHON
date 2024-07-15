@@ -6,7 +6,9 @@
 # 4. Remove the last element from the list.
 # 5. Print the final list.
 
-square=[i**2 for i in range(1,11)]
+square=[]
+for i in range(1,11):
+    square.append(i**2) 
 print("Squares of 1 to 10 : ")
 print(square)
 square[2]=50
